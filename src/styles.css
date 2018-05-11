@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: "Source Code Pro", sans-serif;
+    font-weight: 200;
+    color: rgb(158, 158, 158);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(31, 31, 31);
+}

@@ -1,0 +1,7 @@
+<span [ngStyle]="{ 'left': left, 'top': top }"
+    [ngClass]="{ 'visible': isVisible }"
+    class="color-tooltip">
+    {{ currentColor }}
+    <input type="color" [value]="currentColor"/>
+    <span class="tail"></span>
+</span>

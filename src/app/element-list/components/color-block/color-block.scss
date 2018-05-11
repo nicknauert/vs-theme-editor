@@ -1,0 +1,34 @@
+.color-section-container {
+    margin: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto;
+}
+
+.color-square {
+    color: white;
+    min-height: 2em;
+    height: 100%;
+    width: 2em;
+}
+
+.elements-container {
+    padding-left: .5em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-left: solid 20px;
+}
+
+.color-elements {
+    list-style: none;
+    cursor: pointer;
+}
+
+.color-elements:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+

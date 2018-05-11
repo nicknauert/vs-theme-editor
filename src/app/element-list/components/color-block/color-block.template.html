@@ -1,0 +1,7 @@
+<div class="color-section-container">
+    <ul class="elements-container" [ngStyle]="{'border-color': singleColorSection.color}">
+        <li *ngFor="let el of singleColorSection.elements"
+        (click)="handleElementClick($event)"
+        class="color-elements">{{ el }}</li>
+    </ul>
+</div>

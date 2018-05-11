@@ -1,0 +1,10 @@
+<p>Element List</p>
+<div>
+    <color-section (elementClick)="handleElementClick($event)"
+        *ngFor="let color of themeArray"
+        [singleColorSection]="color">
+    </color-section>
+    <color-tooltip [ngStyle]="display"
+        [currentColor]="currentColorSelection"
+        [position]="tooltipPosition"></color-tooltip>
+</div>

@@ -1,0 +1,21 @@
+.color-tooltip {
+    position: absolute;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+    padding: .5em;
+    background: white;
+    transition: .2s;
+}
+
+.tail {
+    width: 0;
+    height: 0;
+    border: solid 10px transparent;
+    border-right: solid 10px white;
+    position: absolute;
+    left: -20px;
+    top: 10px;
+}
+
+.visible {
+    display: inline;
+}
